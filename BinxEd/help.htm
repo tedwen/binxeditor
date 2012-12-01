@@ -1,0 +1,58 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>BinX Schema Wizard v 1</title>
+</head>
+
+<body>
+
+<p>BinX Editor With Wizard v 1.0</p>
+<p>Introduction</p>
+<p>&nbsp;&nbsp;&nbsp; This is a GUI editor to help create BinX document.<br>
+<img src="image.JPG" width="759" height="625"/></p>
+<p>Features</p>
+<ul>
+  <li>Create a new BinX document by adding types and data elements through 
+  wizard</li>
+  <li>Save created BinX document</li>
+  <li>Open a BinX document for editing</li>
+  <li>Save the document as another file</li>
+  <li>View BinX data elements in a tree view</li>
+  <li>User-defined types listed in the left window and dataset in the right</li>
+  <li>Toolbar buttons as well as menus</li>
+  <li>Right click on tree view windows pop up context menus</li>
+  <li>Editing includes append, insert a sibling or child node, delete a node</li>
+  <li>Validate a BinX file against BinX schema</li>
+</ul>
+<p>Restrictions</p>
+<ul>
+  <li>Support BinX 1.1 published data types only, for example, no Quadruple-128.</li>
+  <li>No embedded struct, array or union types in definitions section</li>
+  <li>No direct struct, array or union data elements in dataset section</li>
+  <li>No node modify function (use delete and insert new)</li>
+  <li>Can load BinX document not created by the editor, but further operation 
+  may lead to error.</li>
+</ul>
+<p>Limitations</p>
+<ul>
+  <li><b>Not enough validation:</b></li>
+  <li>Order of user-defined types. A referenced type must be defined before the 
+  reference.</li>
+  <li>Duplicate type names. Can't have two user-defined types that have the same 
+  type name.</li>
+  <li>Duplicate variable names. Discourage use of same names for two or more 
+  variables in a group like struct.</li>
+  <li>Duplicate or invalid case values. Discriminant values for each case of a 
+  union must be valid and unique.</li>
+  <li>Referenced types must have been defined. This violation occurs when user 
+  deletes a defined type.</li>
+</ul>
+<p></p>
+
+</body>
+
+</html>

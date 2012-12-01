@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<binx xmlns="http://www.edikt.org/binx/2003/06/binx">
+<dataset src="aaxzka.bin" byteOrder="bigEndian">
+	<arrayFixed varName="HDR1">
+		<integer-32 />
+		<dim indexTo="45"/>
+	</arrayFixed>
+	<arrayFixed varName="HDR2">
+		<float-32 />
+		<dim indexTo="19"/>
+	</arrayFixed>
+	<float-32 varName="end of block" />
+	<arrayFixed varName="field">
+		<float-32 />
+		<dim name="row" indexTo="72">
+			<dim name="col" indexTo="95"/>
+		</dim>
+	</arrayFixed>
+	<float-32 varName="end of block" />
+
+	<arrayFixed varName="HDR1">
+		<integer-32 />
+		<dim indexTo="45"/>
+	</arrayFixed>
+	<arrayFixed varName="HDR2">
+		<float-32 />
+		<dim indexTo="19"/>
+	</arrayFixed>
+	<float-32 varName="end of block" />
+	<arrayFixed varName="field">
+		<float-32 />
+		<dim name="row" indexTo="71">
+			<dim name="col" indexTo="95"/>
+		</dim>
+	</arrayFixed>
+	<float-32 varName="end of block" />
+
+	<arrayFixed varName="HDR1">
+		<integer-32 />
+		<dim indexTo="45"/>
+	</arrayFixed>
+	<arrayFixed varName="HDR2">
+		<float-32 />
+		<dim indexTo="19"/>
+	</arrayFixed>
+	<float-32 varName="end of block" />
+	<arrayFixed varName="field">
+		<float-32 />
+		<dim name="row" indexTo="71">
+			<dim name="col" indexTo="95"/>
+		</dim>
+	</arrayFixed>
+	<float-32 varName="end of block" />
+
+	<arrayFixed varName="HDR1">
+		<integer-32 />
+		<dim indexTo="45"/>
+	</arrayFixed>
+	<arrayFixed varName="HDR2">
+		<float-32 />
+		<dim indexTo="19"/>
+	</arrayFixed>
+	<float-32 varName="end of block" />
+	<arrayFixed varName="field">
+		<float-32 />
+		<dim name="row" indexTo="71">
+			<dim name="col" indexTo="95"/>
+		</dim>
+	</arrayFixed>
+	<float-32 varName="end of block" />
+</dataset>
+</binx>

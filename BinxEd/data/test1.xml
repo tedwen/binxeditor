@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<binx xmlns="http://www.edikt.org/binx/2003/06/binx">
+<dataset src="bxmixed1.bin" byteOrder="littleEndian">
+      <long-64 testValue="0"/>
+      <short-16 testValue="0"/>
+      <arrayFixed>
+          <integer-32/>
+          <dim indexTo="2">
+            <dim indexTo="2"/>
+          </dim>
+      </arrayFixed>
+
+      <struct>
+            <unicode-16 testValue="0000"/>
+            <long-64 testValue="1"/>
+            <unicode-16 testValue="0002"/>
+            <unsignedInteger-32 testValue="3"/>
+            <double-64 testValue="4"/>
+            <short-16 testValue="5"/>
+            <long-64 testValue="6"/>
+            <extended-80 testValue="7"/>
+            <unicode-32 testValue="00000008"/>
+            <extended-80 testValue="9"/>
+      </struct>
+
+      <arrayFixed>
+        <struct>
+            <byte-8/>
+            <character-8/>
+            <unicode-16/>
+            <unicode-32/>
+            <short-16/>
+            <integer-32/>
+            <long-64/>
+            <unsignedShort-16/>
+            <unsignedInteger-32/>
+            <unsignedLong-64/>
+            <float-32/>
+            <double-64/>
+            <extended-80/>
+        </struct>
+        <dim indexTo="4"/>
+      </arrayFixed>
+</dataset>
+</binx>
+

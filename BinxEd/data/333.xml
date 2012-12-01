@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<binx xmlns="http://www.edikt.org/binx/2003/06/binx">
+<definitions>
+<defineType typeName="MyArray-3"><arrayVariable><sizeRef><unsignedShort-16/></sizeRef><float-32/><dim name="x"><dim name="y" indexTo="4"></dim></dim></arrayVariable></defineType>
+</definitions>
+<dataset
+ byteOrder="littleEndian">
+<useType typeName="MyArray-3" varName="var-1"/>
+</dataset>
+</binx>

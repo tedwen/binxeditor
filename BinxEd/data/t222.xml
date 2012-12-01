@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<binx xmlns="http://www.edikt.org/binx/2003/06/binx">
+<definitions>
+<defineType typeName="MyStruct-1"><struct><short-16 varName="var-1"/><short-16 varName="var-4"/><float-32 varName="var-3"/></struct></defineType>
+<defineType typeName="MyUnion-1"><union><discriminant><byte-8/></discriminant><case discriminantValue="1"><unsignedShort-16 varName="var-0"/></case><case discriminantValue="2"><character-8 varName="var-1"/></case></union></defineType>
+<defineType typeName="MyArray-1"><arrayFixed><useType typeName="MyStruct-1"/><dim name="x" indexTo="99"><dim name="y" indexTo="49"></dim></dim></arrayFixed></defineType>
+<defineType typeName="MyArray-3"><arrayVariable><byte-8/><dim name="x"></dim></arrayVariable></defineType>
+</definitions>
+<dataset
+ byteOrder="bigEndian">
+<unsignedByte-8 varName="var-1"/>
+<character-8 varName="var-2"/>
+<useType typeName="MyArray-1" varName="var-3"/>
+<useType typeName="MyUnion-1" varName="var-4"/>
+<useType typeName="MyStruct-1" varName="var-5"/>
+</dataset>
+</binx>

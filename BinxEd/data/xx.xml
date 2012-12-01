@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<binx xmlns="http://www.edikt.org/binx/2003/06/binx">
+<definitions>
+<defineType typeName="MyStructType-2"><struct><useType typeName="MyStructType-1"/></struct></defineType>
+<defineType typeName="MyStructType-1"><struct><unsignedByte-8/><byte-8 varName="var-2"/><long-64 varName="var-2"/></struct></defineType>
+</definitions>
+<dataset
+ byteOrder="littleEndian">
+</dataset>
+</binx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<binx xmlns="http://www.edikt.org/binx/2003/06/binx">
+<definitions>
+<defineType typeName="MyStruct-1"><struct><byte-8 varName="var-1"/><byte-8 varName="var-3"/></struct></defineType>
+<defineType typeName="MyArray-1"><arrayFixed><byte-8/><dim name="x" indexTo="49"><dim name="y" indexTo="49"><dim indexTo="7"></dim></dim></dim></arrayFixed></defineType>
+</definitions>
+<dataset
+ byteOrder="bigEndian">
+<useType typeName="MyStruct-1" varName="var-1"/>
+<byte-8 varName="var-2"/>
+<byte-8 varName="var-3"/>
+<byte-8 varName="var-4"/>
+</dataset>
+</binx>

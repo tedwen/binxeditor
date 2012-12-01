@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<binx>
+<definitions>
+<defineType typeName="struct-1"><struct><unicode-16/><long-64/><unicode-16/><unsignedInteger-32/><double-64/><short-16/><long-64/><extended-80/><unicode-32/><extended-80/></struct></defineType>
+<defineType typeName="struct-2"><struct><byte-8/><character-8/><unicode-16/><unicode-32/><short-16/><integer-32/><long-64/><unsignedShort-16/><unsignedInteger-32/><unsignedLong-64/><float-32/><double-64/><extended-80/></struct></defineType>
+<defineType typeName="array-1"><arrayFixed><useType typeName="struct-2"/><dim indexTo="4"></dim></arrayFixed></defineType>
+</definitions>
+<dataset src="bxmixed1.bin"
+ byteOrder="littleEndian">
+<long-64/>
+<short-16/>
+<arrayFixed><integer-32/><dim indexTo="2"><dim indexTo="2"></dim></dim></arrayFixed>
+<useType typeName="struct-1" varName="rec1"/>
+<useType typeName="array-1" varName="array1"/>
+</dataset>
+</binx>

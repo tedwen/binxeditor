@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<binx xmlns="http://www.edikt.org/binx">
+
+<dataset src="test_array_1.bin" byteOrder="littleEndian">
+	<arrayFixed>
+		<arrayFixed>
+			<integer-32 />
+			<dim indexTo="9" />
+		</arrayFixed>
+		<dim indexTo="9" />
+	</arrayFixed>
+</dataset>
+
+</binx>
